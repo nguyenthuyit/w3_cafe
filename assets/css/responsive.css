@@ -1,0 +1,20 @@
+@media(max-width: 1023px){
+    #nav .nav-list li a{
+        padding: 8px 16px;
+        
+    }
+    .content-section .eat-menu {
+        padding: 2px 90px;
+    }
+}
+@media (max-width: 739px){
+    #header .title-img{
+        font-size: 50px;
+    }
+    .content-section .eat-menu {
+        padding: 2px 70px;
+    }
+    .content-section .form-submit{
+        width: 100%;
+    }
+}

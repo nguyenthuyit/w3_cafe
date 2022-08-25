@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+ #nav{
+    background-color: #000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 43px;
+    position: fixed;
+    z-index: 1;
+}
+#nav .nav-list{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 16px; */
+    
+}
+#nav .nav-list li{
+    list-style: none;
+    
+}
+#nav .nav-list li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 100px;
+    text-transform: uppercase;
+    line-height: 43px;
+}
+#nav .nav-list li a:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+#header{
+    background: url(../img/coffeehouse.jpg) center / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+    
+
+}
+#header .title-img{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-60%,-50%);
+    color: #fff;
+    font-size: 90px;
+    font-weight: unset;
+    
+}
+
+#header .info-header{
+    display: flex;
+    justify-content: space-between;
+   padding: 16px;
+   color: #fff;
+}
+#header .info-header .left-img-header{
+    background-color: #000;
+    
+}
+#content{
+    background-color: #fdf5e6;
+    filter: grayscale(75%);
+   
+}
+#content .content-section{
+    width: 900px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+
+}
+.content-section .title-section{
+    color: #fff;
+    background-color: #000;
+    padding: 8px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    
+
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.content-section .text-about{
+    line-height: 1.5;
+    
+}
+
+.content-section .text-special-about{
+    padding: 16px;
+    background-color: #f1f1f1;
+    border-left: 6px solid#ccc;
+}
+.content-section .text-italic-about{
+    font-style: italic;
+}
+.content-section img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.content-section .info-shop-about{
+    font-weight: bold;
+}
+
+.content-section .food-menu{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+   
+
+}
+.content-section .eat-drink{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+}
+.content-section .eat-menu{
+    font-size: 20px;
+    padding: 2px 186px;
+    text-decoration: none;
+
+
+}
+.content-section .eat-menu:first-child{
+    background-color: #ccc;
+    cursor: pointer;
+    
+}
+.content-section .eat-item-list{
+    padding: 0 16px 24px;
+    display: block;
+
+}
+
+.content-section .food-item{
+    margin: 40px 0;
+
+}
+.content-section .name-food{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+
+.content-section .des-food{
+    color: #757575;
+
+}
+.content-section .drink-item-list{
+    padding: 0 16px 24px;
+    display: none;
+}
+.content-section .form-control{
+    width: 100%;
+    margin: 8px 0;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content-section .form-submit{
+    background-color: #000;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 8px;
+    padding: 16px;
+    border: none;
+}
+.content-section .form-submit:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+#footer{
+    background-color: #f1f1f1;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+
+}
+#footer a{
+    color: #000;
+}
+#footer a:hover{
+    color: green;
+}
