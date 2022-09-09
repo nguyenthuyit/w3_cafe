@@ -128,16 +128,21 @@ html{
 }
 .content-section .eat-menu{
     font-size: 20px;
-    padding: 2px 186px;
-    text-decoration: none;
-
-
+   padding: 2px 127px;
+   display: inline-block;
+    border: none;
+    background-color: #fdf5e6;
+    filter: grayscale(75%);
 }
-.content-section .eat-menu:first-child{
-    background-color: #ccc;
+.content-section .eat-menu:hover{
     cursor: pointer;
-    
 }
+.content-section .eat-menu.back-color{
+   background-color: #616161 !important;
+   color: #fff !important;
+}
+
+
 .content-section .eat-item-list{
     padding: 0 16px 24px;
     display: block;
